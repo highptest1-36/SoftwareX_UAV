@@ -55,6 +55,10 @@ python3 tools/source_stats.py --assets-root /path/assets --images /path/UAVDT/UA
 ```
 
 A retrained detector differs from the published checkpoint (GPU non-determinism), so results will differ slightly.
+Recomputing `source_stats.pt` with the published checkpoint reproduces the image selection and object counts exactly,
+but the feature statistics depend on the numerical precision: on CPU (fp32) the class-wise object-feature means differ
+from the published file (GPU, bf16 autocast) by up to about 5 % (relative L2), the image-level statistics by < 0.3 %.
+Use the published file to reproduce the WHW results.
 
 Sequence splits used in docs/RESULTS.md (UAVDT-M sequence ids):
 
