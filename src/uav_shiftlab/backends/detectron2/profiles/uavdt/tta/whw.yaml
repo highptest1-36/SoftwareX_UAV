@@ -1,0 +1,15 @@
+# WHW (Yoo et al., CVPR 2024): image-level + class-wise object-level feature alignment to source statistics with
+# the "when to update" criterion; gamma / tau1 / tau2 / momentum / clipping from the official code
+# (configs/TTA/SHIFT_continuous_R50.yaml). lr selected on target-dev data only.
+# source_stats is relative to the assets root (see docs/INSTALL.md).
+method: whw
+score_thresh: 0.05
+lr: 3.0e-6
+ema: 0.0
+amp: true
+optim: sgd
+momentum: 0.9
+clip_value: 1.0
+adapter: {rank: 32, feat_dropout: 0.0}
+source_stats: checkpoints/source_day_r50_1080/source_stats.pt
+whw: {gamma: 128, tau1: 1.1, tau2: 1.05, obj: true, when: true}

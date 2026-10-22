@@ -1,0 +1,10 @@
+# Mean teacher: teacher detections with score >= pseudo_tau are pseudo-labels; the student FPN adapters are updated
+# with the standard Faster R-CNN losses (RPN + ROI) on frames with >= min_pos pseudo-labels; EMA teacher update.
+method: mean_teacher
+score_thresh: 0.05
+lr: 1.0e-4
+ema: 0.996
+amp: true
+adapter: {rank: 32, feat_dropout: 0.1}
+pseudo_tau: 0.7
+min_pos: 1

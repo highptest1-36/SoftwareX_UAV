@@ -1,0 +1,11 @@
+UAV-ShiftLab
+Copyright 2026 The UAV-ShiftLab authors
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The WHW baseline (src/uav_shiftlab/backends/detectron2/runners.py, class WHWRunner) follows the official implementation
+of "What, How, and When Should Object Detectors Update in Continually Changing Test Domains?" (Yoo et al., CVPR 2024),
+https://github.com/natureyoo/ContinualTTA_ObjectDetection, released under the Apache License 2.0.
+
+The Detectron2 backend depends on Detectron2 (https://github.com/facebookresearch/detectron2, Apache License 2.0).
+UAVDT data are not included and remain subject to the terms of their authors.

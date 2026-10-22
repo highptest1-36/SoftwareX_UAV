@@ -1,0 +1,3 @@
+# Source-only online inference: same detector and stream protocol as the adaptation methods, no adaptation.
+method: source_only
+score_thresh: 0.05

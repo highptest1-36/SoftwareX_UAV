@@ -1,0 +1,9 @@
+# Tent (Wang et al., ICLR 2021) for Faster R-CNN: mean entropy of the ROI classifier over the RPN proposals.
+# Prediction and update use the same model (ema 0 -> teacher := student). lr selected on target-dev data only.
+method: tent
+score_thresh: 0.05
+lr: 3.0e-6
+ema: 0.0
+amp: true
+optim: adam
+adapter: {rank: 32, feat_dropout: 0.0}

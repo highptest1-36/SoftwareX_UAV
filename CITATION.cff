@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "UAV-ShiftLab: protocol-aware online test-time adaptation and drift auditing for video object detection"
+version: 1.0.0
+license: Apache-2.0
+repository-code: "https://github.com/highptest1-36/SoftwareX_UAV"
+authors:
+  - given-names: Cao-Phuc
+    family-names: Ha
+    affiliation: "Department of Artificial Intelligence, FPT University, Ho Chi Minh City, Vietnam"
+    orcid: "https://orcid.org/0009-0004-7024-5166"
+  - given-names: Phu-Nguyen
+    family-names: Le
+    affiliation: "Faculty of Electrical and Electronics Engineering, Vietnam Aerospace University, Ho Chi Minh City, Vietnam"
+    orcid: "https://orcid.org/0000-0001-6773-6336"
+  - given-names: Anh
+    family-names: Nguyen Vu Minh
+    affiliation: "Department of Artificial Intelligence, FPT University, Ho Chi Minh City, Vietnam"
+    orcid: "https://orcid.org/0009-0007-8206-3329"
+keywords:
+  - test-time adaptation
+  - video object detection
+  - UAV
+  - reproducibility
+  - protocol audit

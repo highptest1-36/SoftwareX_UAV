@@ -1,0 +1,34 @@
+# Source detector: Detectron2 Faster R-CNN R50-FPN, merged on top of the model-zoo config
+# COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml. 3 classes (car, truck, bus). Test input short side 1080 (2x the
+# native 540 px of UAVDT), which gives tiny objects (< 16 px) far better anchor coverage than 800 px.
+# The INPUT/SOLVER/DATASETS entries below document how the source checkpoint was trained (UAVDT daylight
+# sequences, COCO-pretrained initialisation); online adaptation only uses the MODEL, INPUT.*_TEST and TEST entries.
+MODEL:
+  WEIGHTS: "checkpoints/pretrained/faster_rcnn_R_50_FPN_3x_coco.pkl"
+  ROI_HEADS:
+    NUM_CLASSES: 3
+    SCORE_THRESH_TEST: 0.05
+INPUT:
+  MIN_SIZE_TRAIN: (972, 1026, 1080, 1134, 1188)
+  MAX_SIZE_TRAIN: 2400
+  MIN_SIZE_TEST: 1080
+  MAX_SIZE_TEST: 2200
+TEST:
+  DETECTIONS_PER_IMAGE: 300
+  EVAL_PERIOD: 2000
+DATASETS:
+  TRAIN: ("uavdt_source_train_s2",)
+  TEST: ("uavdt_source_val",)
+DATALOADER:
+  NUM_WORKERS: 8
+SOLVER:
+  IMS_PER_BATCH: 8
+  BASE_LR: 0.01
+  MAX_ITER: 10000
+  STEPS: (7000, 9000)
+  WARMUP_ITERS: 500
+  CHECKPOINT_PERIOD: 1000
+  AMP:
+    ENABLED: True
+SEED: 42
+OUTPUT_DIR: "checkpoints/source_day_r50_1080"

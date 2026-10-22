@@ -1,0 +1,20 @@
+{
+ "policy": "SHA-256 of the shipped profile files; `uavsl validate RUN_DIR` re-checks them",
+ "files": {
+  "detector.yaml": {
+   "sha256": "d75593b3cbed6a4e6ce8fe6c34a7a282e37505a71d4083592ba237e6998a9cc4"
+  },
+  "tta/mean_teacher.yaml": {
+   "sha256": "7245421016f3e8e15b1f9fa42cf8cbf60d1692feaba479732cca55dd1b08bdef"
+  },
+  "tta/source_only.yaml": {
+   "sha256": "c75aec0808b5d7e67e0de169c8b07494245576b3b457293b4f21aa096a99681d"
+  },
+  "tta/tent.yaml": {
+   "sha256": "d085e70438ab9d73bc1adcf03a71b60d85b7cb57088dfee36a40e3b54c43075e"
+  },
+  "tta/whw.yaml": {
+   "sha256": "6a939b535728543e5095bd97bc3d4a607e02a14cc051c233bff0735929964b86"
+  }
+ }
+}

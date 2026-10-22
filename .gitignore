@@ -1,0 +1,20 @@
+# --- large / environment-specific artefacts ---
+golden/*/
+logs/
+*.npz
+*.pth
+*.pkl
+*.pt
+
+# --- python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+
+# --- experiment outputs (run directories are large; summaries go to results/) ---
+experiments/runs/
+outputs/
