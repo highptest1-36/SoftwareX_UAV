@@ -1,6 +1,6 @@
 # UAV-ShiftLab
 
-**Protocol-aware online test-time adaptation (TTA) and drift auditing for video object detection.**
+**An auditable and resumable framework for online test-time adaptation of UAV video object detectors.**
 
 License: [Apache-2.0](LICENSE) (see also [NOTICE](NOTICE)).
 
@@ -99,7 +99,27 @@ trace to equal the uninterrupted one. The protocol and the trace format are spec
 
 ## Data
 
-UAVDT is available from its authors for research purposes and is **not** redistributed in this repository.
+The experiments use **UAVDT** (Du et al., ECCV 2018), which its authors provide for research purposes only. It is
+**not** redistributed here. Download from the official page, https://sites.google.com/view/grli-uavdt/
+(mirror listing the same original files: https://github.com/dataset-ninja/uavdt/blob/main/DOWNLOAD.md):
+
+- *UAVDT-Benchmark-M* (images, `UAV-benchmark-M/`)
+- *DET/MOT toolkit* (ground truth, `UAV-benchmark-MOTD_v1.0/GT/`)
+- *Attributes* (`M_attr/`)
+
+then build the splits and COCO files with `tools/prepare_uavdt.py` ([docs/INSTALL.md](docs/INSTALL.md)). The source
+detector checkpoint and the WHW statistics are published separately on Zenodo (see docs/INSTALL.md). If you use the
+data, cite the UAVDT paper:
+
+```bibtex
+@inproceedings{du2018uavdt,
+  title     = {The Unmanned Aerial Vehicle Benchmark: Object Detection and Tracking},
+  author    = {Du, Dawei and Qi, Yuankai and Yu, Hongyang and Yang, Yifan and Duan, Kaiwen and Li, Guorong and
+               Zhang, Weigang and Huang, Qingming and Tian, Qi},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  year      = {2018}
+}
+```
 
 ## Repository layout
 
@@ -115,7 +135,21 @@ docs/               installation, protocol specification, results
 
 ## Citation
 
-See [CITATION.cff](CITATION.cff).
+If you use UAV-ShiftLab, please cite the software (metadata in [CITATION.cff](CITATION.cff); GitHub's
+"Cite this repository" button gives APA and BibTeX):
+
+```bibtex
+@software{uavshiftlab2026,
+  title   = {UAV-ShiftLab: An auditable and resumable framework for online test-time adaptation of UAV video object detectors},
+  author  = {Ha, Cao-Phuc and Le, Phu-Nguyen and Nguyen Vu Minh, Anh},
+  year    = {2026},
+  version = {1.0.0},
+  url     = {https://github.com/highptest1-36/SoftwareX_UAV},
+  license = {Apache-2.0}
+}
+```
+
+A journal article describing the software is in preparation; its reference will be added here once published.
 
 ## Contact
 

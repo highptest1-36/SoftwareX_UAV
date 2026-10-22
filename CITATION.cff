@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 type: software
-title: "UAV-ShiftLab: protocol-aware online test-time adaptation and drift auditing for video object detection"
+title: "UAV-ShiftLab: An auditable and resumable framework for online test-time adaptation of UAV video object detectors"
 version: 1.0.0
 license: Apache-2.0
 repository-code: "https://github.com/highptest1-36/SoftwareX_UAV"

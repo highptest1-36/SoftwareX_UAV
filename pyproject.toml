@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "uav-shiftlab"
 version = "1.0.0"
-description = "Protocol-aware online test-time adaptation and drift auditing for video object detection"
+description = "An auditable and resumable framework for online test-time adaptation of UAV video object detectors"
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [

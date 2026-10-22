@@ -44,7 +44,8 @@ python3 tools/prepare_uavdt.py --uavdt-root /path/UAVDT --out /path/assets/data 
 ```
 
 `--uavdt-root` contains the official `UAV-benchmark-M/`, `UAV-benchmark-MOTD_v1.0/GT/` and `M_attr/` folders
-(`--images`, `--gt-dir`, `--attr-dir` override them). The source checkpoint and the WHW statistics used for
+(`--images`, `--gt-dir`, `--attr-dir` override them; the official archives may extract into nested folders such as
+`M_attr/M_attr/` — point the options at the folders that contain the `.txt` files). The source checkpoint and the WHW statistics used for
 docs/RESULTS.md are published with the release archive (Zenodo, see CITATION.cff); place them in
 `<assets>/checkpoints/source_day_r50_1080/`. To recreate them instead (GPU):
 
