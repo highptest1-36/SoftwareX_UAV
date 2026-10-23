@@ -144,6 +144,7 @@ If you use UAV-ShiftLab, please cite the software (metadata in [CITATION.cff](CI
   author  = {Ha, Cao-Phuc and Nguyen Vu Minh, Anh and Nguyen Quoc, Huy and Nguyen Van, Bay and Duong Thi Hong, Ha and Ho Huong, Thien and Lam Tran Tuan, Dzi and Le, Phu-Nguyen},
   year    = {2026},
   version = {1.0.0},
+  doi     = {10.5281/zenodo.23600081},
   url     = {https://github.com/highptest1-36/SoftwareX_UAV},
   license = {Apache-2.0}
 }

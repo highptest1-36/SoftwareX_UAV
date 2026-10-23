@@ -3,6 +3,8 @@ message: "If you use this software, please cite it as below."
 type: software
 title: "UAV-ShiftLab: An auditable and resumable framework for online test-time adaptation of UAV video object detectors"
 version: 1.0.0
+doi: 10.5281/zenodo.23600081
+date-released: 2026-10-23
 license: Apache-2.0
 repository-code: "https://github.com/highptest1-36/SoftwareX_UAV"
 authors:
