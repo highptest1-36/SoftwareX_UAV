@@ -108,7 +108,7 @@ The experiments use **UAVDT** (Du et al., ECCV 2018), which its authors provide 
 - *Attributes* (`M_attr/`)
 
 then build the splits and COCO files with `tools/prepare_uavdt.py` ([docs/INSTALL.md](docs/INSTALL.md)). The source
-detector checkpoint and the WHW statistics are published separately on Zenodo (see docs/INSTALL.md). If you use the
+detector checkpoint and the WHW statistics are published separately on Zenodo, https://doi.org/10.5281/zenodo.23598442 (see docs/INSTALL.md). If you use the
 data, cite the UAVDT paper:
 
 ```bibtex
@@ -141,7 +141,7 @@ If you use UAV-ShiftLab, please cite the software (metadata in [CITATION.cff](CI
 ```bibtex
 @software{uavshiftlab2026,
   title   = {UAV-ShiftLab: An auditable and resumable framework for online test-time adaptation of UAV video object detectors},
-  author  = {Ha, Cao-Phuc and Nguyen Vu Minh, Anh and Le, Phu-Nguyen},
+  author  = {Ha, Cao-Phuc and Nguyen Vu Minh, Anh and Nguyen Quoc, Huy and Nguyen Van, Bay and Duong Thi Hong, Ha and Ho Huong, Thien and Lam Tran Tuan, Dzi and Le, Phu-Nguyen},
   year    = {2026},
   version = {1.0.0},
   url     = {https://github.com/highptest1-36/SoftwareX_UAV},

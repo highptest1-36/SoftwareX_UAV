@@ -11,6 +11,11 @@ requires-python = ">=3.10"
 authors = [
     { name = "Cao-Phuc Ha" },
     { name = "Anh Nguyen Vu Minh" },
+    { name = "Huy Nguyen Quoc" },
+    { name = "Bay Nguyen Van" },
+    { name = "Ha Duong Thi Hong" },
+    { name = "Thien Ho Huong" },
+    { name = "Dzi Lam Tran Tuan" },
     { name = "Phu-Nguyen Le" },
 ]
 license = { text = "Apache-2.0" }
