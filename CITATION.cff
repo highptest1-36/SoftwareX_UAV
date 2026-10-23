@@ -10,14 +10,14 @@ authors:
     family-names: Ha
     affiliation: "Department of Artificial Intelligence, FPT University, Ho Chi Minh City, Vietnam"
     orcid: "https://orcid.org/0009-0004-7024-5166"
-  - given-names: Phu-Nguyen
-    family-names: Le
-    affiliation: "Faculty of Electrical and Electronics Engineering, Vietnam Aerospace University, Ho Chi Minh City, Vietnam"
-    orcid: "https://orcid.org/0000-0001-6773-6336"
   - given-names: Anh
     family-names: Nguyen Vu Minh
     affiliation: "Department of Artificial Intelligence, FPT University, Ho Chi Minh City, Vietnam"
     orcid: "https://orcid.org/0009-0007-8206-3329"
+  - given-names: Phu-Nguyen
+    family-names: Le
+    affiliation: "Faculty of Electrical and Electronics Engineering, Vietnam Aerospace University, Ho Chi Minh City, Vietnam"
+    orcid: "https://orcid.org/0000-0001-6773-6336"
 keywords:
   - test-time adaptation
   - video object detection

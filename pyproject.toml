@@ -10,8 +10,8 @@ readme = "README.md"
 requires-python = ">=3.10"
 authors = [
     { name = "Cao-Phuc Ha" },
-    { name = "Phu-Nguyen Le" },
     { name = "Anh Nguyen Vu Minh" },
+    { name = "Phu-Nguyen Le" },
 ]
 license = { text = "Apache-2.0" }
 classifiers = [

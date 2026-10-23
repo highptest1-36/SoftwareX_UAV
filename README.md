@@ -141,7 +141,7 @@ If you use UAV-ShiftLab, please cite the software (metadata in [CITATION.cff](CI
 ```bibtex
 @software{uavshiftlab2026,
   title   = {UAV-ShiftLab: An auditable and resumable framework for online test-time adaptation of UAV video object detectors},
-  author  = {Ha, Cao-Phuc and Le, Phu-Nguyen and Nguyen Vu Minh, Anh},
+  author  = {Ha, Cao-Phuc and Nguyen Vu Minh, Anh and Le, Phu-Nguyen},
   year    = {2026},
   version = {1.0.0},
   url     = {https://github.com/highptest1-36/SoftwareX_UAV},
