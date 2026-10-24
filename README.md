@@ -2,7 +2,10 @@
 
 **An auditable and resumable framework for online test-time adaptation of UAV video object detectors.**
 
-License: [Apache-2.0](LICENSE) (see also [NOTICE](NOTICE)).
+License: [Apache-2.0](LICENSE) (identical copy: [Licence.txt](Licence.txt); see also [NOTICE](NOTICE)).
+
+Archived release v1.0.0 (Zenodo): https://doi.org/10.5281/zenodo.23600081  
+Source detector checkpoint and WHW source statistics (Zenodo): https://doi.org/10.5281/zenodo.23598442
 
 Online TTA results are easy to get subtly wrong: a model may be updated on a frame before its prediction for that
 frame is recorded, state may be reset (or not) at sequence boundaries without anyone noticing, frames may be
